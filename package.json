@@ -1,0 +1,13 @@
+{
+  "name": "github-actions-lab5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js && node -e \"require('fs').mkdirSync('dist',{recursive:true}); require('fs').writeFileSync('dist/output.txt','Build OK: Hello world');\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
